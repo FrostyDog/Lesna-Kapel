@@ -45,7 +45,6 @@
     transition: background-image 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000);
 }
 
-
 .hero-content{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);

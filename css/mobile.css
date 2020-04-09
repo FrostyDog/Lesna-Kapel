@@ -1,6 +1,4 @@
-/* ///////////////////////
-    Mobile
-*/
+/*    Mobile    */
 
 @media only screen 
 and (max-device-width : 400px) {
@@ -25,10 +23,9 @@ and (max-device-width : 400px) {
         width: 80%;
         margin: 10px;
     }
-
 }
 
-/* Smartphones */
+/*  Smartphones  */
 @media only screen 
 and (min-device-width: 400px)
 and (max-device-width : 570px) {
@@ -78,7 +75,7 @@ and (max-device-height: 722px ) {
     }
 }
 
-/* Big and wide screens */
+/*  Big and wide screens */
 
 @media only screen 
 and (min-device-width : 1024px) 
