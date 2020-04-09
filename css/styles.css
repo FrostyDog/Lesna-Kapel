@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'GT America Condensed';
-    src: url('./fonts/GTAmerica/GTAmerica-CondensedThin.eot');
-    src: url('./fonts/GTAmerica/GTAmerica-CondensedThin.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/GTAmerica/GTAmerica-CondensedThin.woff2') format('woff2'),
-        url('./fonts/GTAmerica/GTAmerica-CondensedThin.woff') format('woff'),
-        url('./fonts/GTAmerica/GTAmerica-CondensedThin.ttf') format('truetype');
+    src: url('../fonts/GTAmerica/GTAmerica-CondensedThin.eot');
+    src: url('../fonts/GTAmerica/GTAmerica-CondensedThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTAmerica/GTAmerica-CondensedThin.woff2') format('woff2'),
+        url('../fonts/GTAmerica/GTAmerica-CondensedThin.woff') format('woff'),
+        url('../fonts/GTAmerica/GTAmerica-CondensedThin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -15,6 +15,8 @@
     box-sizing: border-box;
     font-family: 'GT America Condensed';
   }
+
+  /* Utility css */
 
 .row-center{
     display: flex;
@@ -27,25 +29,22 @@
     text-align: center;
 }
 
+/* 1 Section: hero - css */
+
 #hero{
     height: 100vh;
-    background-image: url('./images/hero-bg1.jpg');
+    background-image: url('../images/hero-bg1.jpg');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     /* background-position: center -250px; */
-    background-position: center сenter;
+    background-position: center;
     background-attachment: fixed;
     transition: background-image 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000);
 }
 
-@media only screen and (max-width: 1800px) {
-    #hero{
-        background-position: center center;
-    }
-}
 
 .hero-content{
     height: 100%;
